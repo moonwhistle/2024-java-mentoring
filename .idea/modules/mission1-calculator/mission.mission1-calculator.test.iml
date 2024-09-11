@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":mission1-calculator:test" external.linked.project.path="$MODULE_DIR$/../../../mission/mission1-calculator" external.root.project.path="$MODULE_DIR$/../../../mission" external.system.id="GRADLE" external.system.module.group="com.example" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output-test url="file://$MODULE_DIR$/../../../mission/mission1-calculator/build/classes/java/test" />
+    <output-test url="file://$MODULE_DIR$/../../../mission/mission1-calculator/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../mission/mission1-calculator/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../../mission/mission1-calculator/src/test/java" isTestSource="true" />

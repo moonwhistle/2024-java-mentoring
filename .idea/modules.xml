@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2024-java-mentoring.iml" filepath="$PROJECT_DIR$/.idea/2024-java-mentoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/com.example.mission.test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/com.example.mission.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/com.example.mission.test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/com.example.mission.test.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/com.example.mission.test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/com.example.mission.test.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/mission.iml" filepath="$PROJECT_DIR$/mission.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mission.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission1-calculator/mission.mission1-calculator.iml" filepath="$PROJECT_DIR$/.idea/modules/mission1-calculator/mission.mission1-calculator.iml" />
