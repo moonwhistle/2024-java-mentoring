@@ -16,7 +16,7 @@ public class Calculator {
 
     public int divide(int num1, int num2){
         if(num2 == NUM_ZERO){
-            throw new ArithmeticException();
+            throw new ArithmeticException("0으로 나눌 수 없음");
         }
         return num1 / num2;
     }
