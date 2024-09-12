@@ -15,7 +15,7 @@ public class StringCalculator {
         this.inputString = str;
     }
 
-    public List<String> StringList(){
+    public List<String> stringList(){
         String firstString = inputString.substring(ZERO_NUM, FIRST_INDEX);
         if(!firstString.equals(CHECK_FIRST_STRING)){
             String[] strArr = inputString.split(SPLIT_STRING);
