@@ -3,18 +3,19 @@ package view;
 import java.util.Scanner;
 
 public class InputView {
-    public void input() {
-        Scanner scanner = new Scanner(System.in);
 
+    Scanner scanner = new Scanner(System.in);
+
+    public int firstNumber() {
         System.out.println("첫번째 숫자를 입력하세요");
         int num1 = scanner.nextInt();
+        return num1;}
 
-        System.out.println("+,-,*,/ 를 입력하세요,");
-        char symbol = scanner.next().charAt(0);
-
+    public int secondNumber() {
         System.out.print("두번째 숫자를 입력하세요");
         int num2 = scanner.nextInt();
-    }
+        return num2;
+        }
 
 }
 
