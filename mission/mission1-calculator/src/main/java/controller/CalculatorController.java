@@ -5,27 +5,23 @@ import domain.Calculator;
 import view.OutputView;
 
 public class CalculatorController {
-    InputView inputView;
-    Calculator calculator;
-    OutputView outputView;
+   private final InputView inputView;
+   private final OutputView outputView;
+   private final Calculator calculator;
 
     public CalculatorController(OutputView outputView, InputView inputView, Calculator calculator) {
         this.inputView = inputView;
-        this.calculator = calculator;
         this.outputView = outputView;
+        this.calculator = calculator;
     }
 
     public void startController() {
-        inputView = new InputView();
-        calculator = new Calculator();
-        outputView = new OutputView();
+        int user_Number1 = inputView.firstNumber();
+        int user_Number2 = inputView.secondNumber();
 
-        int num1 = inputView.firstNumber();
-        int num2 = inputView.secondNumber();
-
-        outputView.outPut(calculator.plus(num1, num2));
-        outputView.outPut(calculator.minus(num1, num2));
-        outputView.outPut(calculator.multiplication(num1, num2));
-        outputView.outPut(calculator.divide(num1, num2));
+        outputView.outPut(calculator.callPlus(user_Number1, user_Number2));
+        outputView.outPut(calculator.callMinus(user_Number1, user_Number2));
+        outputView.outPut(calculator.callMultiplication(user_Number1, user_Number2));
+        outputView.outPut(calculator.callDivide(user_Number1, user_Number2));
     }
 }
